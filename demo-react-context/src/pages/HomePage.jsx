@@ -5,6 +5,8 @@ import { Link } from "react-router-dom";
 const HomePage = () => {
 	const { todos } = useContext(TodoContext);
 
+	
+
 	return (
 		<div>
 			<table className="table table-bordered table-striped">
